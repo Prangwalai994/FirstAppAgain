@@ -8,4 +8,5 @@
     <string name="study">I\'m study at Computer Science</string>
     <string name="motto">Someday I want to be a Programmer</string>
     <string name="contact">Contact</string>
+    <string name="hello_blank_fragment">Hello Blank</string>
 </resources>
