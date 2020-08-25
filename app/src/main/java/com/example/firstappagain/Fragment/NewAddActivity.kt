@@ -11,11 +11,11 @@ import com.example.firstappagain.R
 
 class NewAddActivity : AppCompatActivity() {
 
-    private lateinit var editAddView: EditText
+    private lateinit var editAddView:EditText
 
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_new_word)
+        setContentView(R.layout.activity_new_add)
         editAddView = findViewById(R.id.edit_add)
 
         val button = findViewById<Button>(R.id.button_save)
@@ -24,8 +24,8 @@ class NewAddActivity : AppCompatActivity() {
             if (TextUtils.isEmpty(editAddView.text)) {
                 setResult(Activity.RESULT_CANCELED, replyIntent)
             } else {
-                val word = editAddView.text.toString()
-                replyIntent.putExtra(EXTRA_REPLY, word)
+                val user = editAddView.text.toString()
+                replyIntent.putExtra(EXTRA_REPLY, user)
                 setResult(Activity.RESULT_OK, replyIntent)
             }
             finish()

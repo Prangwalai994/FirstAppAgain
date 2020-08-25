@@ -14,8 +14,8 @@ interface AddDao {
     fun getAlphabetizedAdds(): LiveData<List<Add>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insert(add: Add)
+    fun insert(add: Add)
 
-    @Query("DELETE FROM word_table")
-    suspend fun deleteAll()
+    @Query("DELETE FROM add_table")
+    fun deleteAll()
 }

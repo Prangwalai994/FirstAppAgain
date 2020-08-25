@@ -29,7 +29,7 @@ class AddListAdapter internal constructor(
         holder.addItemView.text = current.add
     }
 
-    internal fun setAdds(adds: List<Adds>) {
+    internal fun setAdds(adds: List<Add>) {
         this.adds = adds
         notifyDataSetChanged()
     }

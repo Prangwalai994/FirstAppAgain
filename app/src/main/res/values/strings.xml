@@ -12,4 +12,10 @@
     <string name="add">Add name</string>
     <string name="add_name">AddName</string>
     <string name="add_word">add_name</string>
+    <string name="about">aboutme</string>
+    <string name="adduser">addcontact</string>
+    <string name="hint_word">hint_add</string>
+    <string name="hint_add">hint_add</string>
+    <string name="button_save">save</string>
+    <string name="img1">img1</string>
 </resources>
