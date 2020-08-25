@@ -2,4 +2,10 @@
     <string name="app_name">FirstAppagain</string>
     <string name="Aboutme">about_me</string>
     <string name="about_me">Aboutme</string>
+    <string name="Prangwalai">name</string>
+    <string name="name">Name: Prangwalai Littisorn</string>
+    <string name="age">I\'m 21 year old</string>
+    <string name="study">I\'m study at Computer Science</string>
+    <string name="motto">Someday I want to be a Programmer</string>
+    <string name="contact">Contact</string>
 </resources>
