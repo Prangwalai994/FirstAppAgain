@@ -14,20 +14,9 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/wae5"
             android:scrollbarThumbHorizontal="@color/mr_cast_progressbar_background_dark"
             tools:context=".MainActivity">
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recyclerview"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:background="@drawable/wae5"
-                android:padding="@dimen/big_padding"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:listitem="@layout/recyclerview_item" />
 
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
