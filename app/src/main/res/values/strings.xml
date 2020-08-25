@@ -9,4 +9,7 @@
     <string name="motto">Someday I want to be a Programmer</string>
     <string name="contact">Contact</string>
     <string name="hello_blank_fragment">Hello Blank</string>
+    <string name="add">Add name</string>
+    <string name="add_name">AddName</string>
+    <string name="add_word">add_name</string>
 </resources>

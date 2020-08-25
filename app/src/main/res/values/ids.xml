@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button_save" type="id">add</item>
+    <item name="edit_add" type="id">add</item>
+</resources>
